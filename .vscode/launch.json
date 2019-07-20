@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AliddnsApplication",
+            "request": "launch",
+            "mainClass": "com.jzb.aliddns.AliddnsApplication",
+            "projectName": "aliddns",
+            "args": "1 2 3 4 0 "
+        }
+    ]
+}
