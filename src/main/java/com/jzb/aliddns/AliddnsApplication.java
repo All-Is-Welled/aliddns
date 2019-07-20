@@ -15,11 +15,11 @@ public class AliddnsApplication {
             logging.error("no args");
             return;
         }
-        logging.info("accessKeyId��" + args[0]);
-        logging.info("accessKeySecret��***************");
-        logging.info("domainName��" + args[2]);
-        logging.info("RRs��" + args[3]);
-        logging.info("timeout" + args[4]);
+        logging.info("accessKeyId: " + args[0]);
+        logging.info("accessKeySecret: ***************");
+        logging.info("domainName: " + args[2]);
+        logging.info("RRs: " + args[3]);
+        logging.info("timeout" " + args[4]);
 
         String accessKeyId = args[0];
         String accessKeySecret = args[1];
