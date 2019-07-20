@@ -1,22 +1,23 @@
+
 # aliddns
 
-# é˜¿é‡ŒåŸŸåè§£æ
+# °¢ÀïÓòÃû½âÎö
 
 `java -jar aliddns-0.0.1.jar Key Secret Domain RRs Timeout`
 
-# å‚æ•°è¯´æ˜
-Key: accessKeyId é˜¿é‡Œäº‘è·å–
+# ²ÎÊıËµÃ÷
+Key: accessKeyId °¢ÀïÔÆ»ñÈ¡
 
-Secret: accessKeySecret é˜¿é‡Œäº‘è·å–
+Secret: accessKeySecret °¢ÀïÔÆ»ñÈ¡
 
-Domain: åŸŸå å¦‚ example.com
+Domain: ÓòÃû Èç example.com
 
-RRs: å­åŸŸåå‰ç¼€åˆ— demo,demo1,demo2,@ é€—å·éš”å¼€   æ³¨æ„ï¼š@ æ”¾åœ¨æœ€å
+RRs: ×ÓÓòÃûÇ°×ºÁĞ demo,demo1,demo2,@ ¶ººÅ¸ô¿ª   ×¢Òâ£º@ ·ÅÔÚ×îºó
 
-Timeout: åˆ·æ–°é—´éš”æ—¶é—´
+Timeout: Ë¢ĞÂ¼ä¸ôÊ±¼ä
 
-# ä¾‹
+# Àı
 
-è‹¥è¦åŒæ—¶è§£æ www.example.comã€example.comã€demo.example.comã€demo1.example.comï¼Œåˆ™éœ€è¦è¿è¡Œå¦‚ä¸‹å‘½ä»¤
+ÈôÒªÍ¬Ê±½âÎö www.example.com¡¢example.com¡¢demo.example.com¡¢demo1.example.com£¬ÔòĞèÒªÔËĞĞÈçÏÂÃüÁî
 
 `java -jar aliddns-0.0.1.jar accessKeyId accessKeySecret  example.com www,demo,demo1,@  5`
